@@ -1,0 +1,30 @@
+.index-button {
+  width: 100vw;
+  height: 100vh;
+  font-size: 20rem;
+  font-weight: bold;
+  color: white;
+  background: red;
+  cursor: pointer;
+}
+
+.uranai-button {
+  width: 100vw;
+  height: 100vh;
+  font-weight: bold;
+  color: white;
+  background: red;
+  /* cursor: pointer; */
+}
+
+.uranai {
+  height: 30vh;
+  font-size: 16rem;
+  padding-top: 1rem;
+}
+
+.comments {
+  height: 10vh;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
