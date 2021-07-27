@@ -6,6 +6,12 @@
   color: white;
   background: red;
   cursor: pointer;
+  animation: fuyofuyo 2s ease infinite;
+  border: 1rem solid red;
+}
+
+@keyframes fuyofuyo {
+  50% { transform: scale(1.05); }
 }
 
 .uranai-button {
@@ -15,16 +21,30 @@
   color: white;
   background: red;
   cursor: pointer;
+  border: 1rem solid red;
 }
 
 .uranai {
   height: 30vh;
   font-size: 16rem;
   padding-top: 1rem;
+  animation: opacity_0-1 ease-in 1s;
 }
 
 .comments {
   height: 10vh;
   font-size: 2rem;
   padding-bottom: 1rem;
+  animation: opacity_0-0-1 linear 2s ;
+}
+
+@keyframes opacity_0-1 {
+  0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+@keyframes opacity_0-0-1 {
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+100% { opacity: 1; }
 }
